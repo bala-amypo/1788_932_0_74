@@ -1,4 +1,4 @@
-com.example.demo.service.impl;
+package com.example.demo.service.impl;
 
 import java.util.List;
 
@@ -34,5 +34,4 @@ public class StudentServiceImpl implements StudentService {
     public void deleteStudentById(Long id) {
         repo.deleteById(id);
     }
-
 }
